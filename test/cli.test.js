@@ -48,7 +48,7 @@ describe('cli', () => {
     }
   });
 
-  it('should work with out file', async () => {
+  it('should work without out file', async () => {
     const output = await run('typescript.tsx', false);
 
     for (const out of output) {
